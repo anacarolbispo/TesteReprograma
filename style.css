@@ -1,0 +1,64 @@
+html {
+	font-family: Andale Mono, monospace;  
+	background: #B0E2FF;
+}
+
+.header {
+    background-color: #607B8B;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+.grid {
+	padding: 14px 15px 7px 15px;
+	border-bottom: 1px solid #eee;
+	color: #282323;
+	background-color: white;
+	margin-bottom: 0;
+}
+
+#campo {
+  width: 600px;
+  height: 40px;
+  text-align: center;
+  font-size: 20px;
+  border: 0;
+}
+
+li {
+  text-align: left;
+  font-size: 30px;
+  list-style: none;
+}
+
+li:hover {
+  text-decoration: line-through;
+}
+
+
+
+ul li.checked {
+    text-decoration: line-through;
+	color: green;
+}
+
+ul li.checked::before {
+    content: '\2713';
+    position: absolute;
+    left: 30px;
+    font-size: 28px;
+	font-weight: bold;
+	color: green;
+}
+
+.add {
+    padding: 12px;
+    background: green;
+	border-color:white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.add:hover {
+    background-color: #98FB98;
+}
